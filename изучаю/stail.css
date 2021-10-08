@@ -1,0 +1,512 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+    
+}
+header{
+    margin: 0 auto;
+    height: 700px;
+    margin-bottom: 0;
+    background: #EEEFF1;
+}
+.logo{
+    color:#34547A;
+    font-family: Revalia;
+    font-size: 48px;
+    margin: 0 0 0 15%;
+}
+.menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_nav{
+    display: flex;
+    font-family: Roboto; 
+    margin: -5px 10% 0 0px;
+    font-size: 16px;  
+}
+.nav{
+    list-style: none;
+    margin: -20px 42px 0 0;
+     
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    margin: 160px 0 0 0;
+}
+.offer{
+    display: flex;
+    margin: -40px 10% 0px 131px;
+    flex-direction: column;
+}
+.offer_heading{
+    font-family: Roboto;
+    font-size: 48px;
+    line-height: 76px;
+    color: #000000;
+    width: 100%;
+}
+.offer_text{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 80%;
+    height: 67px;
+    margin: 57px 0 60px 0;
+
+}
+.offer_btn{
+    background: #34547A;
+    height: 65px;
+    width: 225px;
+    cursor: pointer;
+}
+.txt{
+    color: #FFFFFF;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+}
+.content_img{
+    margin: 0 0 0 20%;
+    width: 357px;
+    height: 233px;
+}
+.about_me{
+    display: flex;
+    height: 366px;
+    flex-direction: column;
+    
+}
+.about_me_heading{    
+    font-family: Roboto;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    color: #000000;
+    margin: 119px 0 0 0;
+    
+}
+.about_me_offer{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px; 
+    color: #727272;
+    text-align: center;
+    margin: 0 35% 0 35%;
+    
+}
+.advantage{
+    display: flex;
+    justify-content: center;
+    background: #34547A;
+    height: 250px;
+} 
+.advantage_list{
+    display: flex; 
+    list-style: none;
+    color: white;
+
+}
+.advantage_list li{
+    display: flex;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 100px 49px 0 0;
+}
+.advantage_list li i{
+    font-size: 50px;
+    margin-right: 10%;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+}
+.skills_me{
+    font-family: Roboto;   
+    font-size: 32px;
+    line-height: 37px;
+
+}
+.skills_list{
+    margin: 204px 204px 0 0;
+    
+}
+.skills_work{
+    font-family: Roboto;
+    list-style: none;
+    line-height: 26px;
+    font-size: 16px;
+    color: #727272;
+    margin: 30px 0 0 0;
+   
+}
+.skills_loading{
+    border: 1px;
+    width: 445px;
+    padding: 2px;
+    background: linear-gradient(to right, #34547A 70%, #C4C4C4 50%);
+}
+.photo_me{
+    width: 555px;
+    height: 450px;
+    font-size: 32px;
+    line-height: 37px;
+    margin: 102px 0 101px 0;
+}
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EEEFF1;
+    height: 1200px;
+}
+.work_heading{
+    margin: 100px 0 50px 0;
+    font-family: Roboto;
+    font-size: 32px;
+    line-height: 37px;
+}
+.work_offer{
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+    text-align: center;
+    color: #727272;
+    margin: 0 0 57px 0;
+    
+}
+
+.work_video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: auto;
+}
+.work_play{
+    position: absolute;
+    cursor: pointer;
+    margin: 15% 0 0 0;
+    
+}
+.video_play{
+    display: flex;
+    justify-content: center;
+}
+.projects_img{
+    position: relative;
+    width: 25%;
+    height: 25%;
+    
+    
+}
+.teg_img{
+ width: 100%;
+ height: 100%;
+    
+}
+.i{
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+ 
+} 
+.teg_img i{
+    position: absolute;  
+    text-align: center;
+    color: #ffffff00;
+    background-color: #34537a00;
+    background-repeat:repeat-x;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+.teg_img i:hover{
+    position: absolute; 
+    font-size: 150px;
+    color: #ffffff;
+    background-color: #34537abd;
+    
+}
+.img{   
+    width: 100%;
+    height: 100%;
+ 
+}
+   
+.projects_1{
+    display: flex;
+        
+}
+.projects_2{
+    display: flex;
+    margin: -1% 0 0 0;
+    
+        
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 762px;
+    background: #EEEFF1;
+    
+}
+.forms_heading{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 32px;
+    line-height: 37px;
+    margin: 100px 0 50px 0;
+}
+.forms_offer{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 26px;
+    width: 30%;
+    color: #727272;
+}
+.forms_appeal{
+    display: flex;
+}
+.forms_name{
+    width: 255px;
+    height: 50px;
+    font-size: 25px;
+    margin: 65px 22px 15px 0;
+}
+.forms_email{
+    width: 255px;
+    height: 50px;
+    font-size: 25px;
+    margin: 65px 0px 15px 0;
+}
+.forms_message{   
+    width: 540px;
+    height: 175px;
+    word-break: break-all;
+    font-size: 25px;
+    
+}
+.forms_btn{
+    width: 190px;
+    height: 55px;
+    margin: 50px 0 0 0;
+    background: #34547A;
+    color: cornsilk;
+}
+footer{
+    height: 151px;
+    background: #34547A;
+    color: white;
+}
+.footer_name{
+    padding: 50px 0 0 10%;
+    font-family: Roboto;
+    font-size: 21px;
+    line-height: 25px;
+}
+.networks{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: -30px 10% 0 0;
+}
+.networks_icons i{
+    margin: 0 15px;
+    color: white;
+    font-size: 35px;
+}
+.footer_rights{
+    padding: 0 0 0 10%;
+    font-family: Roboto;
+    font-size: 13px;
+    line-height: 21px;
+}
+@media (max-width: 1240px){
+    
+    header{
+        height: 1000px;
+    }
+    .menu{
+        display: none;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content_img{
+        display: flex;
+        justify-content: center;
+        margin: 0 0 10% 5%;
+        width: 40%;
+        height: auto;    
+    }
+    .projects_2{
+        margin: 0 0 0 0;
+    }
+    .offer{
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 5%;
+        
+    }
+    .offer_heading{
+        text-align: center;
+        margin: 0 35% 0 35%; 
+    }
+    .offer_btn{
+        text-align: center;
+        margin: 0 35% 0 35%;        
+    }
+    .offer_text{
+        text-align: center;
+    }
+    .about_me{
+        height: 500px;
+    }
+    .advantage{
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+    .advantage_list{
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 0 10%;
+
+    }
+    .skills{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .skills_list{
+        margin: -5% 0 0 0;
+        height: 550px;
+    }
+    
+    .skills_me{
+        text-align: center;
+        margin: 98px 0 0 0;
+        
+    }
+    .work_video{
+        width: 80%;
+        height: auto;
+    }
+    .work{
+        height: 1000px;
+    }
+    .forms{
+        height: 830px;
+    }
+    .forms_appeal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .forms_name{
+        width: 540px;
+        height: 50px; 
+        margin: 15px 0 0 0;
+    }
+    .forms_email{
+        width: 540px;
+        height: 50px;
+        margin: 15px 0 15px 0;
+    }
+    .projects_1{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects_2{
+        display: flex;
+        flex-direction: column;
+    }
+    .projects{
+        display: flex;
+    }
+    .projects_img{
+        width: 100%;
+        height: 100%;
+    }
+}
+@media (max-width: 710px){
+   .forms_btn{
+       margin: 5% 0 5% 0;
+   }
+   .work{
+    height: 700px;
+   }
+   .about_me_offer{
+       display: flex;
+       margin: auto;
+       width: 70%;
+       justify-content: center;       
+   }
+   .forms_offer{
+    margin: auto;
+    width: 70%;
+   }
+}
+
+@media (max-width: 662px){
+    .offer_heading{
+        font-size: 35px;
+    }
+    .work{
+        height: 700px;
+    }
+    .work_offer{
+        width: 60%;
+    }
+}
+@media (max-width: 560px){
+    .work_play{
+        width: 20%;
+        height: auto;
+    }
+    .forms_name{
+        width: 360px;
+    }
+    .forms_email{
+        width: 360px;   
+    }
+    .forms_message{
+        width: 360px;
+    }
+} 
+@media (max-width: 450px){
+    .about_me{
+        height: 600px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .networks_icons{
+        margin: 20% -5%;
+    }
+    .networks{
+        text-align: center;
+    }
+    .skills_work{
+        margin: 9% 10%  0;
+    }
+}   
